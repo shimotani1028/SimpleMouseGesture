@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcresult            # ← テスト・ビルド結果のアーカイブは不要
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# Archives / Artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+
+# Secrets / Credentials
+.env
+.env.*
+*.p12                 # 証明書
+*.mobileprovision     # プロビジョニングプロファイル
+*.pem
+*.key
+*.crt
+*.cer
+
+# Editors / IDE
+.vscode/
+.idea/
